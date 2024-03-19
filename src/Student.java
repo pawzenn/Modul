@@ -6,7 +6,7 @@ public class Student {
     Book[] borrowedBooks = new Book[100];
     int borrowedCount = 0;
 
-    public Student(String name, String faculty, String programStudi) {
+    public  Student(String name, String faculty, String programStudi) {
         this.name = name;
         this.faculty = faculty;
         this.programStudi = programStudi;
